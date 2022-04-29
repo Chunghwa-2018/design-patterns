@@ -1,0 +1,5 @@
+/Users/zhaohongliang/IdeaProjects/design-patterns/strategy/strategy-2/src/main/java/org/example/pattern/Strategy.java
+/Users/zhaohongliang/IdeaProjects/design-patterns/strategy/strategy-2/src/main/java/org/example/pattern/abst/impl/BlackCarAbstractImpl.java
+/Users/zhaohongliang/IdeaProjects/design-patterns/strategy/strategy-2/src/main/java/org/example/pattern/enums/CarColorEnum.java
+/Users/zhaohongliang/IdeaProjects/design-patterns/strategy/strategy-2/src/main/java/org/example/pattern/abst/impl/RedCarAbstractImpl.java
+/Users/zhaohongliang/IdeaProjects/design-patterns/strategy/strategy-2/src/main/java/org/example/pattern/abst/CarAbstract.java

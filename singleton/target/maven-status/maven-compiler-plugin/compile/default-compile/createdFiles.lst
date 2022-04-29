@@ -1,0 +1,4 @@
+org/example/pattern/DoubleCheckSingletonSafe.class
+org/example/pattern/LazySingletonUnsafe.class
+org/example/pattern/LazySingletonSafe.class
+org/example/pattern/HungrySingletonSafe.class

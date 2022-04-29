@@ -1,0 +1,5 @@
+org/example/pattern/enums/CarColorEnum.class
+org/example/pattern/Strategy.class
+org/example/pattern/abst/impl/BlackCarAbstractImpl.class
+org/example/pattern/abst/impl/RedCarAbstractImpl.class
+org/example/pattern/abst/CarAbstract.class

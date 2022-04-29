@@ -1,0 +1,7 @@
+org/example/pattern/abst/impl/OrangeCatAbstractImpl.class
+org/example/pattern/abst/impl/BlackCatAbstractImpl.class
+org/example/pattern/abst/CatAbstract.class
+org/example/pattern/Strategy.class
+org/example/pattern/core/CatContext.class
+org/example/pattern/core/CatShare.class
+org/example/pattern/enums/CatColorEnum.class
