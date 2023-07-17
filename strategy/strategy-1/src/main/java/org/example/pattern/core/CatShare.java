@@ -11,13 +11,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * <p>分享方式</p>
+ * 分享方式
  *
- * @ClassName CatShare
- * @Description 分享方式
- * @Author zhaohongliang
- * @Date 2021-02-09 17:45
- * @Version 1.0
+ * @author zhaohongliang
+ * @since 1.0
  */
 public class CatShare {
 

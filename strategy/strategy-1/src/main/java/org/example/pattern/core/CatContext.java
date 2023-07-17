@@ -3,13 +3,10 @@ package org.example.pattern.core;
 import org.example.pattern.abst.CatAbstract;
 
 /**
- * <p>猫的上下文</p>
+ * 猫的上下文
  *
- * @ClassName CatContext
- * @Description 猫的上下文
- * @Author zhaohongliang
- * @Date 2021-02-09 17:41
- * @Version 1.0
+ * @author zhaohongliang
+ * @since 1.0
  */
 public class CatContext {
 

@@ -3,13 +3,10 @@ package org.example.pattern;
 import org.example.pattern.enums.CarColorEnum;
 
 /**
- * <p>策略模式</p>
+ * 策略模式
  *
- * @ClassName Strategy
- * @Description 策略模式
- * @Author zhaohongliang
- * @Date 2021-02-10 10:40
- * @Version 1.0
+ * @author zhaohongliang
+ * @since 1.0
  */
 public class Strategy {
 

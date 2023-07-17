@@ -5,13 +5,10 @@ import org.example.pattern.abst.impl.BlackCarAbstractImpl;
 import org.example.pattern.abst.impl.RedCarAbstractImpl;
 
 /**
- * <p>颜色枚举</p>
+ * 颜色枚举
  *
- * @ClassName CarColorEnum
- * @Description 颜色枚举
- * @Author zhaohongliang
- * @Date 2021-02-10 09:56
- * @Version 1.0
+ * @author zhaohongliang
+ * @since 1.0
  */
 public enum CarColorEnum {
 

@@ -4,13 +4,10 @@ import org.example.pattern.abst.CatAbstract;
 import org.example.pattern.enums.CatColorEnum;
 
 /**
- * <p>橘猫实现类</p>
+ * 橘猫实现类
  *
- * @ClassName CatAbstractIml
- * @Description 橘猫实现类
- * @Author zhaohongliang
- * @Date 2021-02-09 17:35
- * @Version 1.0
+ * @author zhaohongliang
+ * @since 1.0
  */
 public class OrangeCatAbstractImpl implements CatAbstract {
 

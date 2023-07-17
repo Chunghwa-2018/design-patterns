@@ -1,13 +1,10 @@
 package org.example.pattern.model;
 
 /**
- * <p>鱼</p>
+ * 鱼
  *
- * @ClassName Fish
- * @Description 鱼
- * @Author zhaohongliang
- * @Date 2021-05-27 14:33
- * @Version 1.0
+ * @author zhaohongliang
+ * @since 1.0
  */
 public class Fish {
 

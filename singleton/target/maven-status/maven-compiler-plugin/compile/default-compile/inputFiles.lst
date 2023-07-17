@@ -1,4 +1,4 @@
-/Users/zhaohongliang/IdeaProjects/design-patterns/singleton/src/main/java/org/example/pattern/DoubleCheckSingletonSafe.java
-/Users/zhaohongliang/IdeaProjects/design-patterns/singleton/src/main/java/org/example/pattern/LazySingletonSafe.java
-/Users/zhaohongliang/IdeaProjects/design-patterns/singleton/src/main/java/org/example/pattern/HungrySingletonSafe.java
-/Users/zhaohongliang/IdeaProjects/design-patterns/singleton/src/main/java/org/example/pattern/LazySingletonUnsafe.java
+/Users/zhaohongliang/GitHub/design-patterns/singleton/src/main/java/org/example/pattern/LazySingletonSafe.java
+/Users/zhaohongliang/GitHub/design-patterns/singleton/src/main/java/org/example/pattern/LazySingletonUnsafe.java
+/Users/zhaohongliang/GitHub/design-patterns/singleton/src/main/java/org/example/pattern/HungrySingletonSafe.java
+/Users/zhaohongliang/GitHub/design-patterns/singleton/src/main/java/org/example/pattern/DoubleCheckSingletonSafe.java

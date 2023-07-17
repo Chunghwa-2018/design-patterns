@@ -1,7 +1,7 @@
-/Users/zhaohongliang/IdeaProjects/design-patterns/strategy/strategy-1/src/main/java/org/example/pattern/abst/CatAbstract.java
-/Users/zhaohongliang/IdeaProjects/design-patterns/strategy/strategy-1/src/main/java/org/example/pattern/enums/CatColorEnum.java
-/Users/zhaohongliang/IdeaProjects/design-patterns/strategy/strategy-1/src/main/java/org/example/pattern/abst/impl/OrangeCatAbstractImpl.java
-/Users/zhaohongliang/IdeaProjects/design-patterns/strategy/strategy-1/src/main/java/org/example/pattern/core/CatShare.java
-/Users/zhaohongliang/IdeaProjects/design-patterns/strategy/strategy-1/src/main/java/org/example/pattern/Strategy.java
-/Users/zhaohongliang/IdeaProjects/design-patterns/strategy/strategy-1/src/main/java/org/example/pattern/abst/impl/BlackCatAbstractImpl.java
-/Users/zhaohongliang/IdeaProjects/design-patterns/strategy/strategy-1/src/main/java/org/example/pattern/core/CatContext.java
+/Users/zhaohongliang/GitHub/design-patterns/strategy/strategy-1/src/main/java/org/example/pattern/Strategy.java
+/Users/zhaohongliang/GitHub/design-patterns/strategy/strategy-1/src/main/java/org/example/pattern/abst/CatAbstract.java
+/Users/zhaohongliang/GitHub/design-patterns/strategy/strategy-1/src/main/java/org/example/pattern/enums/CatColorEnum.java
+/Users/zhaohongliang/GitHub/design-patterns/strategy/strategy-1/src/main/java/org/example/pattern/core/CatContext.java
+/Users/zhaohongliang/GitHub/design-patterns/strategy/strategy-1/src/main/java/org/example/pattern/core/CatShare.java
+/Users/zhaohongliang/GitHub/design-patterns/strategy/strategy-1/src/main/java/org/example/pattern/abst/impl/BlackCatAbstractImpl.java
+/Users/zhaohongliang/GitHub/design-patterns/strategy/strategy-1/src/main/java/org/example/pattern/abst/impl/OrangeCatAbstractImpl.java

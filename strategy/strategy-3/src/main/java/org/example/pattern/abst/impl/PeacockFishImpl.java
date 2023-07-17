@@ -4,13 +4,10 @@ import org.example.pattern.abst.FishAbstract;
 import org.example.pattern.model.Fish;
 
 /**
- * <p>孔雀鱼抽象策略接口实现</p>
+ * 孔雀鱼抽象策略接口实现
  *
- * @ClassName PeacockFishImpl
- * @Description 孔雀鱼抽象策略接口实现
- * @Author zhaohongliang
- * @Date 2021-05-27 14:41
- * @Version 1.0
+ * @author zhaohongliang
+ * @since 1.0
  */
 public class PeacockFishImpl implements FishAbstract {
 

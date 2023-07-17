@@ -1,13 +1,10 @@
 package org.example.pattern.abst;
 
 /**
- * <p>汽车的抽象策略接口</p>
+ * 汽车的抽象策略接口
  *
- * @ClassName CarAbstract
- * @Description 汽车的抽象策略接口
- * @Author zhaohongliang
- * @Date 2021-02-10 10:05
- * @Version 1.0
+ * @author zhaohongliang
+ * @since 1.0
  */
 public interface CarAbstract {
 

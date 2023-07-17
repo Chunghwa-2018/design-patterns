@@ -1,13 +1,10 @@
 package org.example.pattern.enums;
 
 /**
- * <p>颜色枚举</p>
+ * 颜色枚举
  *
- * @ClassName ColorEnum
- * @Description 颜色枚举
- * @Author zhaohongliang
- * @Date 2021-02-09 17:25
- * @Version 1.0
+ * @author zhaohongliang
+ * @since 1.0
  */
 public enum CatColorEnum {
 

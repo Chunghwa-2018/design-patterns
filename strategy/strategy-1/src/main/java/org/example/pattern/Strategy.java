@@ -4,13 +4,10 @@ import org.example.pattern.core.CatShare;
 import org.example.pattern.enums.CatColorEnum;
 
 /**
- * <p>策略模式</p>
+ * 策略模式
  *
- * @ClassName Strategy
- * @Description 策略模式
- * @Author zhaohongliang
- * @Date 2021-02-09 17:24
- * @Version 1.0
+ * @author zhaohongliang
+ * @since 1.0
  */
 public class Strategy {
 

@@ -1,14 +1,12 @@
 package org.example.pattern;
 
 /**
- * <p>单例-双重校验加锁-线程安全</p>
- *
- * @ClassName DoubleCKSingletonSafe
- * @Description instance 只需要被实例化一次，之后就可以直接使用了。加锁操作只需要对实例化那部分的代码进行，只有当 instance 没有被实例化时，才需要进行加锁。
+ * 单例-双重校验加锁-线程安全
+ * instance 只需要被实例化一次，之后就可以直接使用了。加锁操作只需要对实例化那部分的代码进行，只有当 instance 没有被实例化时，才需要进行加锁。
  * 双重校验锁先判断 instance 是否已经被实例化，如果没有被实例化，那么才对实例化语句进行加锁。
- * @Author zhaohongliang
- * @Date 2021-02-09 17:08
- * @Version 1.0
+ *
+ * @author zhaohongliang
+ * @since 1.0
  */
 public class DoubleCheckSingletonSafe {
 

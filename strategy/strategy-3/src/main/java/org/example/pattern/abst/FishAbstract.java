@@ -3,13 +3,10 @@ package org.example.pattern.abst;
 import org.example.pattern.model.Fish;
 
 /**
- * <p>鱼的抽象策略接口</p>
+ * 鱼的抽象策略接口
  *
- * @ClassName FishAbstract
- * @Description 鱼的抽象策略接口
- * @Author zhaohongliang
- * @Date 2021-05-27 14:31
- * @Version 1.0
+ * @author zhaohongliang
+ * @since 1.0
  */
 public interface FishAbstract {
 

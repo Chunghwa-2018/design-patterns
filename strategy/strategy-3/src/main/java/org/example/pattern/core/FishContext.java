@@ -4,13 +4,10 @@ import org.example.pattern.abst.FishAbstract;
 import org.example.pattern.model.Fish;
 
 /**
- * <p>鱼上下文</p>
+ * 鱼上下文
  *
- * @ClassName FishContext
- * @Description 鱼上下文
- * @Author zhaohongliang
- * @Date 2021-05-27 14:49
- * @Version 1.0
+ * @author zhaohongliang
+ * @since 1.0
  */
 public class FishContext {
 

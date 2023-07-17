@@ -4,13 +4,10 @@ import org.example.pattern.abst.CarAbstract;
 import org.example.pattern.enums.CarColorEnum;
 
 /**
- * <p>红色汽车的接口实现</p>
+ * 红色汽车的接口实现
  *
- * @ClassName RedCarAbstractImpl
- * @Description 红色汽车的接口实现
- * @Author zhaohongliang
- * @Date 2021-02-10 10:06
- * @Version 1.0
+ * @author zhaohongliang
+ * @since 1.0
  */
 public class RedCarAbstractImpl implements CarAbstract {
 
