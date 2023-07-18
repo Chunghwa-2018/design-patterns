@@ -6,7 +6,7 @@ package org.example.pattern;
  * @author zhaohongliang 2023-07-17 21:15
  * @since 1.0
  */
-public class Main {
+public class TestMain {
 
     public static void main(String[] args) {
         Builder bmwBuilder = new BmwCarBuilder();
