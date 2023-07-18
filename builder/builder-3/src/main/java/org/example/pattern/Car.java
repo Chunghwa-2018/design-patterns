@@ -40,84 +40,62 @@ public class Car {
     }
 
     public Car(Builder builder) {
-        this.brandName = builder.getBrandName();
-        this.model = builder.getModel();
-        this.color = builder.getColor();
-        this.instructions = builder.getInstructions();
+        this.brandName = builder.brandName;
+        this.model = builder.model;
+        this.color = builder.color;
+        this.instructions = builder.instructions;
+    }
+
+    public static final class Builder {
+        /**
+         * 品牌
+         */
+        private String brandName;
+
+        /**
+         * 型号
+         */
+        private String model;
+
+        /**
+         * 颜色
+         * @see ColorEnum
+         */
+        private String color;
+
+        /**
+         * 介绍
+         */
+        private String instructions;
+
+
+        public Car build() {
+            return new Car(this);
+        }
+
+
+        public Builder setBrandName(String brandName) {
+            this.brandName = brandName;
+            return this;
+        }
+
+        public Builder setModel(String model) {
+            this.model = model;
+            return this;
+        }
+
+        public Builder setColor(String color) {
+            this.color = color;
+            return this;
+        }
+
+        public Builder setInstructions(String instructions) {
+            this.instructions = instructions;
+            return this;
+        }
     }
 
 
-    /**
-     * 获取 品牌
-     *
-     * @return brandName 品牌
-     */
-    public String getBrandName() {
-        return this.brandName;
-    }
-
-    /**
-     * 设置 品牌
-     *
-     * @param brandName 品牌
-     */
-    public void setBrandName(String brandName) {
-        this.brandName = brandName;
-    }
-
-    /**
-     * 获取 型号
-     *
-     * @return model 型号
-     */
-    public String getModel() {
-        return this.model;
-    }
-
-    /**
-     * 设置 型号
-     *
-     * @param model 型号
-     */
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    /**
-     * 获取 颜色      @see ColorEnum
-     *
-     * @return color 颜色      @see ColorEnum
-     */
-    public String getColor() {
-        return this.color;
-    }
-
-    /**
-     * 设置 颜色      @see ColorEnum
-     *
-     * @param color 颜色      @see ColorEnum
-     */
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    /**
-     * 获取 介绍
-     *
-     * @return instructions 介绍
-     */
-    public String getInstructions() {
-        return this.instructions;
-    }
-
-    /**
-     * 设置 介绍
-     *
-     * @param instructions 介绍
-     */
-    public void setInstructions(String instructions) {
-        this.instructions = instructions;
-    }
 
     @Override
     public String toString() {

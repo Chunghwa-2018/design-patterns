@@ -9,13 +9,12 @@ package org.example.pattern;
 public class TestMain {
 
     public static void main(String[] args) {
-        Car car = new Car.Builder()
-                .setBrandName("BMW")
-                .setModel("5X")
+        Car car = Builder.create()
+                .setBrandName("Audi")
+                .setModel("A6")
                 .setColor(ColorEnum.BLACK.getColor())
-                .setInstructions("BMW")
+                .setInstructions("Audi")
                 .build();
-
         System.out.println(car);
     }
 }
