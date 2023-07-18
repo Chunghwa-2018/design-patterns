@@ -10,23 +10,23 @@ public class AudiCarBuilder extends Builder {
 
 
     @Override
-    public void setBrandName(String brandName) {
-        car.setBrandName(brandName);
+    public void setBrandName() {
+        car.setBrandName("Audi");
     }
 
     @Override
-    public void setModel(String model) {
-        car.setModel(model);
+    public void setModel() {
+        car.setModel("A6");
     }
 
     @Override
-    public void setColor(String color) {
-        car.setColor(color);
+    public void setColor() {
+        car.setColor(ColorEnum.BLACK.getColor());
     }
 
     @Override
-    public void setInstructions(String instructions) {
-        car.setInstructions(instructions);
+    public void setInstructions() {
+        car.setInstructions("Audi");
     }
 
     @Override

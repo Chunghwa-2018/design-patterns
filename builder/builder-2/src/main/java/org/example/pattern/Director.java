@@ -14,11 +14,13 @@ public class Director {
         this.builder = builder;
     }
 
-    public Car build(String brandName, String model, String color, String instructions) {
-        builder.setBrandName(brandName);
-        builder.setModel(model);
-        builder.setColor(color);
-        builder.setInstructions(instructions);
+
+    public Car build() {
+        builder.setBrandName();
+        builder.setModel();
+        builder.setColor();
+        builder.setInstructions();
         return builder.build();
     }
+
 }

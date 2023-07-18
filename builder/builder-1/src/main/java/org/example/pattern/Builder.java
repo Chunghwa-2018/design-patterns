@@ -6,35 +6,35 @@ package org.example.pattern;
  * @author zhaohongliang 2023-07-17 20:56
  * @since 1.0
  */
-public interface Builder {
+public abstract class Builder {
+
+    protected Car car = new Car();
 
     /**
      * 设置品牌
-     *
-     * @param brandName
      */
-    public void setBrandName(String brandName);
+    public abstract void setBrandName();
 
     /**
      * 设置型号
-     *
-     * @param model
      */
-    public void setModel(String model);
+    public abstract void setModel();
 
     /**
      * 设置颜色
-     *
-     * @param color
      */
-    public void setColor(String color);
+    public abstract void setColor();
 
     /**
      * 设置介绍
-     *
-     * @param instructions
      */
-    public void setInstructions(String instructions);
+    public abstract void setInstructions();
 
-    public Car build();
+    public Car build() {
+        setBrandName();
+        setModel();
+        setColor();
+        setInstructions();
+        return car;
+    }
 }

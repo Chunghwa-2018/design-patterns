@@ -7,7 +7,7 @@ package org.example.pattern;
  * @author zhaohongliang
  * @since 1.0
  */
-public enum CarColorEnum {
+public enum ColorEnum {
 
     BLACK("black", "黑色汽车"),
 
@@ -29,7 +29,7 @@ public enum CarColorEnum {
      * @param color
      * @param remark
      */
-     CarColorEnum(String color, String remark) {
+     ColorEnum(String color, String remark) {
         this.color = color;
         this.remark = remark;
     }

@@ -11,12 +11,12 @@ public class TestMain {
     public static void main(String[] args) {
         Builder bmwBuilder = new BmwCarBuilder();
         Director bmwDirector = new Director(bmwBuilder);
-        Car bmwCar = bmwDirector.build("BMW", "E-x", CarColorEnum.RED.getColor(), "性能非常棒");
+        Car bmwCar = bmwDirector.build();
         System.out.println(bmwCar.toString());
 
         Builder audiBuilder = new AudiCarBuilder();
         Director audiDirector = new Director(audiBuilder);
-        Car audiCar = audiDirector.build("Audi", "S-x", CarColorEnum.BLACK.getColor(), "碾压其他");
+        Car audiCar = audiDirector.build();
         System.out.println(audiCar.toString());
     }
 }

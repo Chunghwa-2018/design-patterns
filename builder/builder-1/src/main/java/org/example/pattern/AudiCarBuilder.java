@@ -6,57 +6,27 @@ package org.example.pattern;
  * @author zhaohongliang 2023-07-17 21:22
  * @since 1.0
  */
-public class AudiCarBuilder implements Builder {
-
-    /**
-     * 品牌
-     */
-    private String brandName;
-
-    /**
-     * 型号
-     */
-    private String model;
-
-    /**
-     * 颜色
-     * @see CarColorEnum
-     */
-    private String color;
-
-    /**
-     * 介绍
-     */
-    private String instructions;
+public class AudiCarBuilder extends Builder {
 
 
     @Override
-    public void setBrandName(String brandName) {
-        this.brandName = brandName;
+    public void setBrandName() {
+        car.setBrandName("Audi");
     }
 
     @Override
-    public void setModel(String model) {
-        this.model = model;
+    public void setModel() {
+        car.setModel("A6");
     }
 
     @Override
-    public void setColor(String color) {
-        this.color = color;
+    public void setColor() {
+        car.setColor(ColorEnum.BLACK.getColor());
     }
 
     @Override
-    public void setInstructions(String instructions) {
-        this.instructions = instructions;
+    public void setInstructions() {
+        car.setInstructions("Audi");
     }
 
-    @Override
-    public Car build() {
-        Car car = new Car();
-        car.setBrandName(brandName);
-        car.setModel(model);
-        car.setColor(color);
-        car.setInstructions(instructions);
-        return car;
-    }
 }

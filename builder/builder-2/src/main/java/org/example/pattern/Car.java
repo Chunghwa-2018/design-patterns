@@ -20,7 +20,7 @@ public class Car {
 
     /**
      * 颜色
-     * @see CarColorEnum
+     * @see ColorEnum
      */
     private String color;
 
@@ -77,18 +77,18 @@ public class Car {
     }
 
     /**
-     * 获取 颜色      @see CarColorEnum
+     * 获取 颜色      @see ColorEnum
      *
-     * @return color 颜色      @see CarColorEnum
+     * @return color 颜色      @see ColorEnum
      */
     public String getColor() {
         return this.color;
     }
 
     /**
-     * 设置 颜色      @see CarColorEnum
+     * 设置 颜色      @see ColorEnum
      *
-     * @param color 颜色      @see CarColorEnum
+     * @param color 颜色      @see ColorEnum
      */
     public void setColor(String color) {
         this.color = color;

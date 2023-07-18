@@ -39,6 +39,13 @@ public class Car {
         this.instructions = instructions;
     }
 
+    public Car(Builder builder) {
+        this.brandName = builder.getBrandName();
+        this.model = builder.getModel();
+        this.color = builder.getColor();
+        this.instructions = builder.getInstructions();
+    }
+
 
     /**
      * 获取 品牌
@@ -121,4 +128,5 @@ public class Car {
                 ", instructions='" + instructions + '\'' +
                 '}';
     }
+
 }
