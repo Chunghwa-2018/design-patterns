@@ -20,7 +20,7 @@ public class DoubleCheckSingletonSafe {
      * 此时 T2  调用 getUniqueInstance() 后发现 uniqueInstance 不为空，因此返回 uniqueInstance，但此时 uniqueInstance 还未被初始化。
      * 使用 volatile 可以禁止 JVM 的指令重排，保证在多线程环境下也能正常运行。
      */
-    private volatile static DoubleCheckSingletonSafe instance;
+    private static volatile DoubleCheckSingletonSafe instance;
 
     /**
      * 私有无参构造方法，避免外部创建

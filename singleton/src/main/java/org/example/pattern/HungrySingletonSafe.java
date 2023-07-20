@@ -13,7 +13,7 @@ public class HungrySingletonSafe {
     /**
      * 私有静态属性 instance，并创建对象
      */
-    private static HungrySingletonSafe instance = new HungrySingletonSafe();
+    private static final HungrySingletonSafe instance = new HungrySingletonSafe();
 
     /**
      * 私有无参构造方法，避免外部创建实例
